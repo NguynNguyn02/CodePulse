@@ -5,7 +5,7 @@
             Thêm danh mục
         </a>
     </div>
-    <ng-container *ngIf="categories">
+    <ng-container *ngIf="categories$ | async as categories" >
         <table class="table table-bordered mt-3">
             <thead>
                 <tr>
