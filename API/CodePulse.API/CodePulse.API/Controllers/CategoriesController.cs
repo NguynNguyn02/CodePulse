@@ -93,11 +93,11 @@ namespace CodePulse.API.Controllers
                 Name = request.Name,
                 UrlHandle = request.UrlHandle
             };
-            category =  await _categoryRepository.UpdateAsync(category);
+            category = await _categoryRepository.UpdateAsync(category);
 
             //convert domain model to DTO
 
-            if (category is null) { 
+            if (category is null) {
                 return NotFound();
             }
             var response = new CategoryDTO()
@@ -106,6 +106,28 @@ namespace CodePulse.API.Controllers
                 Name = category.Name,
                 UrlHandle = category.UrlHandle
             };
+            return Ok(response);
+        }
+
+        // DELETE https://localhost:7039/api/Categories/{id}
+
+        [HttpDelete]
+        [Route("{id:Guid}")]
+        public async Task<IActionResult> DeleteCategory([FromRoute] Guid id)
+        {
+            var category = await _categoryRepository.DeleteAsync(id);
+            if (category is null)
+            {
+                return NotFound();
+            }
+            //convert domain model to DTO
+            var response = new CategoryDTO()
+            {
+                Id = category.Id,
+                Name = category.Name,
+                UrlHandle = category.UrlHandle
+            };
+            
             return Ok(response);
         }
 
