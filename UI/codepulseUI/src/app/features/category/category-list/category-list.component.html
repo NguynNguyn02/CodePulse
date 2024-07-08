@@ -12,6 +12,7 @@
                     <th>Id</th>
                     <th>Tên danh mục</th>
                     <th>Url Handle</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -24,6 +25,9 @@
                     </td>
                     <td>
                         {{category.urlHandle}}
+                    </td>
+                    <td>
+                        <a class="btn btn-light" [routerLink]="['/admin/categories/',category.id]">Sửa</a>
                     </td>
                 </tr>
             </tbody>
