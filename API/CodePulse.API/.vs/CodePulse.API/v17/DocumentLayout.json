@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\dto\\updatecategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\updatecategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\interfacerepository\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\interfacerepository\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\interfacerepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\interfacerepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\dto\\createcategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\createcategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\dto\\categorydto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\categorydto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\implementationreponsitory\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\implementationreponsitory\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\implementationreponsitory\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\implementationreponsitory\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\dto\\categorydto\\updatecategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\categorydto\\updatecategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\dto\\categorydto\\createcategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\categorydto\\createcategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\le trung nguyen\\documents\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03E291C7-9D05-401A-883C-61A6DEBC3F04}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,15 +110,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateCategoryRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\UpdateCategoryRequestDTO.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\UpdateCategoryRequestDTO.cs",
-              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\UpdateCategoryRequestDTO.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\UpdateCategoryRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "BlogPostsController.cs",
+              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostsController.cs",
+              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
+              "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T21:03:58.228Z",
+              "WhenOpened": "2024-07-09T03:23:52.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "CodePulse.API\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAuwDMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T19:13:27.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CategoryDTO\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\CategoryDTO\\CategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CategoryDTO\\CategoryDTO.cs",
+              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\CategoryDTO\\CategoryDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T20:12:32.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBlogPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\InterfaceRepository\\IBlogPostRepository.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\InterfaceRepository\\IBlogPostRepository.cs",
+              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\InterfaceRepository\\IBlogPostRepository.cs",
+              "RelativeToolTip": "CodePulse.API\\Repositories\\InterfaceRepository\\IBlogPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:30:55.194Z",
               "EditorCaption": ""
             },
             {
@@ -124,12 +175,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Program.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Program.cs",
+              "RelativeToolTip": "CodePulse.API\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T16:36:30.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlogPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\ImplementationReponsitory\\BlogPostRepository.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\ImplementationReponsitory\\BlogPostRepository.cs",
+              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\ImplementationReponsitory\\BlogPostRepository.cs",
+              "RelativeToolTip": "CodePulse.API\\Repositories\\ImplementationReponsitory\\BlogPostRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:32:45.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\ImplementationReponsitory\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\ImplementationReponsitory\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\ImplementationReponsitory\\CategoryRepository.cs",
+              "RelativeToolTip": "CodePulse.API\\Repositories\\ImplementationReponsitory\\CategoryRepository.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAwCAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T20:58:57.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
+              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
+              "RelativeToolTip": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T18:08:47.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CodePulse.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T18:23:40.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateCategoryRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CategoryDTO\\UpdateCategoryRequestDTO.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\CategoryDTO\\UpdateCategoryRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CategoryDTO\\UpdateCategoryRequestDTO.cs",
+              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\CategoryDTO\\UpdateCategoryRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:03:58.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CreateCategoryRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CreateCategoryRequestDTO.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\CreateCategoryRequestDTO.cs",
-              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CreateCategoryRequestDTO.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\CreateCategoryRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CategoryDTO\\CreateCategoryRequestDTO.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\CategoryDTO\\CreateCategoryRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CategoryDTO\\CreateCategoryRequestDTO.cs",
+              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\CategoryDTO\\CreateCategoryRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T19:41:12.554Z",
@@ -137,58 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "CodePulse.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAYwIIAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T19:13:27.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Program.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Program.cs",
-              "RelativeToolTip": "CodePulse.API\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACwAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T16:36:30.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\ImplementationReponsitory\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\ImplementationReponsitory\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\ImplementationReponsitory\\CategoryRepository.cs*",
-              "RelativeToolTip": "CodePulse.API\\Repositories\\ImplementationReponsitory\\CategoryRepository.cs*",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAwCAAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T20:58:57.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CategoryDTO.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\CategoryDTO.cs",
-              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CategoryDTO.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\CategoryDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T20:12:32.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "20240701191052_Initial_Migration.cs",
               "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Migrations\\20240701191052_Initial_Migration.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Migrations\\20240701191052_Initial_Migration.cs",
@@ -200,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\Category.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\Domain\\Category.cs",
@@ -212,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\appsettings.json",
               "RelativeDocumentMoniker": "CodePulse.API\\appsettings.json",
@@ -221,30 +299,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-07-01T18:34:43.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "CodePulse.API\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T18:23:40.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BlogPost.cs",
-              "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA7wAwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T18:08:47.093Z"
             }
           ]
         }

@@ -1,6 +1,6 @@
 ﻿using CodePulse.API.Data;
 using CodePulse.API.Models.Domain;
-using CodePulse.API.Models.DTO;
+using CodePulse.API.Models.DTO.CategoryDTO;
 using CodePulse.API.Repositories.ImplementationReponsitory;
 using CodePulse.API.Repositories.InterfaceRepository;
 using Microsoft.AspNetCore.Http;
