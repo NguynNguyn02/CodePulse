@@ -22,7 +22,7 @@ namespace CodePulse.API.Repositories.ImplementationReponsitory
 
         public async Task<IEnumerable<BlogPost>> GetAllAsync()
         {
-            return await _db.BlogPosts.ToListAsync();
+            return await _db.BlogPosts.Include(x=>x.Categories).ToListAsync();
         }
 
         

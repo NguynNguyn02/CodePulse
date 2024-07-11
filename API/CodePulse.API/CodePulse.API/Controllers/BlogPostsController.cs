@@ -1,5 +1,6 @@
 ﻿using CodePulse.API.Models.Domain;
 using CodePulse.API.Models.DTO.BlogPostDTO;
+using CodePulse.API.Models.DTO.CategoryDTO;
 using CodePulse.API.Repositories.InterfaceRepository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,10 +12,12 @@ namespace CodePulse.API.Controllers
     public class BlogPostsController : ControllerBase
     {
         private readonly IBlogPostRepository _blogPostRepository;
+        private readonly ICategoryRepository _categoryRepository;
 
-        public BlogPostsController(IBlogPostRepository blogPostRepository)
+        public BlogPostsController(IBlogPostRepository blogPostRepository,ICategoryRepository categoryRepository)
         {
             _blogPostRepository = blogPostRepository;
+            _categoryRepository = categoryRepository;
         }
         //GET :  https://localhost:7039/api/BlogPosts
         [HttpGet]
@@ -35,7 +38,13 @@ namespace CodePulse.API.Controllers
                      PublishedDate = blogpost.PublishedDate,
                      ShortDescription = blogpost.ShortDescription,
                      Title = blogpost.Title,
-                     UrlHandle = blogpost.UrlHandle
+                     UrlHandle = blogpost.UrlHandle,
+                     Categories = blogpost.Categories.Select(x=> new CategoryDTO
+                     {
+                         Id=x.Id,
+                         Name = x.Name,
+                         UrlHandle=x.UrlHandle,
+                     }).ToList()
                  });
 
             }
@@ -57,8 +66,16 @@ namespace CodePulse.API.Controllers
                 ShortDescription = request.ShortDescription,
                 UrlHandle = request.UrlHandle,
                 IsVisible = request.IsVisible,
+                Categories = new List<Category>()
             };
-            await _blogPostRepository.CreateAsync(blogpost);
+            foreach (var categoryGuid in request.Categories) {
+                var existingCategory = await _categoryRepository.GetByIdAsync(categoryGuid);
+                if (existingCategory is not null)
+                {
+                    blogpost.Categories.Add(existingCategory);
+                }
+            }
+            blogpost = await _blogPostRepository.CreateAsync(blogpost);
             //convert domain model to DTO
             var reponse = new BlogPostDTO
             {
@@ -71,6 +88,12 @@ namespace CodePulse.API.Controllers
                 ShortDescription = blogpost.ShortDescription,
                 UrlHandle = blogpost.UrlHandle,
                 IsVisible = blogpost.IsVisible,
+                Categories = blogpost.Categories.Select(x => new CategoryDTO
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    UrlHandle = x.UrlHandle,
+                }).ToList()
             };
             return Ok(reponse);
         }
