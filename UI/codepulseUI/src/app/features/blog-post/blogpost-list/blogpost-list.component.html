@@ -10,6 +10,8 @@
                     <th>Tiêu đề</th>
                     <th>Mô tả</th>
                     <th>Hiển thị?</th>
+                    <th>Danh mục</th>
+                    
                 </tr>
             </thead>
             <tbody>
@@ -17,6 +19,11 @@
                     <td>{{blogPost.title}}</td>
                     <td>{{blogPost.shortDescription}}</td>
                     <td>{{blogPost.isVisible}}</td>
+                    <td>
+                        <span *ngFor="let category of blogPost.categories">
+                            <span class="badge text-bg-secondary">{{category.name}}</span>
+                        </span>
+                    </td>
                 </tr>
             </tbody>
         </table>

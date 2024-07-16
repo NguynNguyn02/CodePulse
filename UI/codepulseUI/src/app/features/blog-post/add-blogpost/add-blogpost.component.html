@@ -1,53 +1,35 @@
 <div class="container">
     <h1 class="mt-3">
-        Thêm bài viết 
-    </h1> 
-    <form #form = "ngForm" (ngSubmit)="onFormSubmit()">
+        Thêm bài viết
+    </h1>
+    <form #form="ngForm" (ngSubmit)="onFormSubmit()">
         <div class="mt-2 mb-5">
             <div class="mt-3">
                 <label for="title" class="form-label">Tiêu đề</label>
-                <input type="text"
-                id="title"
-                name="title"
-                class="form-control"
-                [(ngModel)]="model.title"
-                />
+                <input type="text" id="title" name="title" class="form-control" [(ngModel)]="model.title" />
             </div>
             <div class="mt-3">
                 <label for="title" class="form-label">Url Handle</label>
-                <input type="text"
-                id="urlHandle"
-                name="urlHandle"
-                class="form-control"
-                [(ngModel)]="model.urlHandle"
-                />
+                <input type="text" id="urlHandle" name="urlHandle" class="form-control" [(ngModel)]="model.urlHandle" />
             </div>
             <div class="mt-3">
                 <label for="title" class="form-label">Mô tả</label>
-                <input type="text"
-                id="shortDescription"
-                name="shortDescription"
-                class="form-control"
-                [(ngModel)]="model.shortDescription"
-                />
+                <input type="text" id="shortDescription" name="shortDescription" class="form-control"
+                    [(ngModel)]="model.shortDescription" />
             </div>
             <div class="mt-3">
                 <label for="title" class="form-label">Nội dung</label>
                 <div class="d-flex flex-row">
                     <div class="col-6 p-2">
-                        <textarea
-                        id="content"
-                        name="content"
-                        class="form-control"
-                        style="height: 350px;max-height: 350px;"
-                        [(ngModel)]="model.content"></textarea>
+                        <textarea id="content" name="content" class="form-control"
+                            style="height: 350px;max-height: 350px;" [(ngModel)]="model.content"></textarea>
                     </div>
                     <div class="col-6 p-2" style="max-height: 350px;overflow-y: scroll;">
                         <markdown [data]="model.content"></markdown>
                     </div>
                 </div>
-               
-                
+
+
             </div>
             <div class="mt-3">
                 <label for="title" class="form-label">Ảnh đại diện</label>
@@ -56,42 +38,34 @@
                         <img [src]="model.featuredImageUrl" height="100" class="my-2">
                     </div>
                 </ng-container>
-                <input type="text"
-                id="featuredImageUrl"
-                name="featuredImageUrl"
-                class="form-control"
-                [(ngModel)]="model.featuredImageUrl"
-                />
+                <input type="text" id="featuredImageUrl" name="featuredImageUrl" class="form-control"
+                    [(ngModel)]="model.featuredImageUrl" />
             </div>
             <div class="mt-3">
                 <label for="title" class="form-label">Ngày đăng</label>
-                <input type="date"
-                id="publishedDate"
-                name="publishedDate"
-                class="form-control"
-                value="model.publishedDate"
-                [ngModel]="model.publishedDate | date:'yyy-MM-dd'"
-                (ngModelChange)="model.publishedDate = $event"
-                />
+                <input type="date" id="publishedDate" name="publishedDate" class="form-control"
+                    value="model.publishedDate" [ngModel]="model.publishedDate | date:'yyy-MM-dd'"
+                    (ngModelChange)="model.publishedDate = $event" />
             </div>
             <div class="mt-3">
                 <label for="title" class="form-label">Tác giả</label>
-                <input type="text"
-                id="author"
-                name="author"
-                class="form-control"
-                [(ngModel)]="model.author"
-                />
+                <input type="text" id="author" name="author" class="form-control" [(ngModel)]="model.author" />
             </div>
-            <div class="form-check form-switch mt-3" >
-                <input class="form-check-input"
-                type="checkbox" role="switch"
-                id="isVisible" 
-                [(ngModel)]="model.isVisible"
-                name="isVisible"
-                >
+            <div class="form-check form-switch mt-3">
+                <input class="form-check-input" type="checkbox" role="switch" id="isVisible"
+                    [(ngModel)]="model.isVisible" name="isVisible">
                 <label class="form-check-label" for="isVisible">Hiển thị?</label>
-              </div>
+            </div>
+            <div class="mt-3">
+                <label for="title" class="form-label">Danh mục</label>
+                <ng-container *ngIf="categories$ | async as categories">
+                    <select class="form-control" [(ngModel)]="model.categories" name="categories" id="categories" multiple >
+                        <option *ngFor="let category of categories" [value]="category.id">
+                            {{category.name}} 
+                        </option>   
+                    </select>
+                </ng-container>
+            </div>
             <div class="mt-3">
                 <button type="submit" class="btn btn-success">Lưu</button>
             </div>
