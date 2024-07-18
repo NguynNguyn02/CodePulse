@@ -11,7 +11,7 @@
                     <th>Mô tả</th>
                     <th>Hiển thị?</th>
                     <th>Danh mục</th>
-                    
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -23,6 +23,9 @@
                         <span *ngFor="let category of blogPost.categories">
                             <span class="badge text-bg-secondary">{{category.name}}</span>
                         </span>
+                    </td>
+                    <td>
+                        <a class="btn btn-light" [routerLink]="['/admin/blogposts',blogPost.id]">Sửa</a>
                     </td>
                 </tr>
             </tbody>
