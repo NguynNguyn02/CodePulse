@@ -25,6 +25,7 @@ export class EditBlogpostComponent implements OnInit, OnDestroy {
   routeSubcription?: Subscription;
   updateBlogPostSubcription?: Subscription;
   getBlogPostSubcription?:Subscription;
+  deleteBlogPostSubcription?:Subscription;
 
   constructor(private route: ActivatedRoute,
     private blogpostService: BlogPostService,
@@ -76,12 +77,22 @@ export class EditBlogpostComponent implements OnInit, OnDestroy {
         }
       });
     }
-
+  }
+  onDelete():void{
+    if(this.id){
+      this.deleteBlogPostSubcription = this.blogpostService.deleteBlogPost(this.id).subscribe({
+        next:(reponse)=>{
+          this.router.navigateByUrl("/admin/blogposts");
+        }
+      })
+    }
   }
   ngOnDestroy(): void {
     this.routeSubcription?.unsubscribe();
     this.getBlogPostSubcription?.unsubscribe();
     this.updateBlogPostSubcription?.unsubscribe();
+    this.deleteBlogPostSubcription?.unsubscribe();
+    
   }
 
 }
