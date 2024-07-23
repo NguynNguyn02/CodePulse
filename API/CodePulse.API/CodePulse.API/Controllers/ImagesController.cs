@@ -15,6 +15,33 @@ namespace CodePulse.API.Controllers
         {
             _blogImage = blogImage;
         }
+
+        //GET : {apiurlbase}/api/images
+        [HttpGet]
+        public async Task<IActionResult> GetAllImages()
+        {
+            var images = await _blogImage.GetAllAsync();
+
+            //convert domain model to DTO
+
+            var reponse = new List<BlogImageDTO>();
+            foreach (var image in images)
+            {
+                reponse.Add(new BlogImageDTO
+                {
+                    Id = image.Id,
+                    DateCreated = image.DateCreated,
+                    FileExtension = image.FileExtension,
+                    FileName = image.FileName,
+                    Title = image.Title,
+                    Url = image.Url
+                });
+            }
+            return Ok(reponse);
+        }
+
+
+
         //POST : {apiurlbase}/api/images
         [HttpPost]
         public async Task<IActionResult> UploadImages([FromForm] IFormFile file,
@@ -51,7 +78,7 @@ namespace CodePulse.API.Controllers
         }
         private void ValidateFileUpload(IFormFile file)
         {
-            var allowedExtensions = new string[] { ".jpg", ".jpeg", "png" };
+            var allowedExtensions = new string[] { ".jpg", ".jpeg", ".png" };
             if (!allowedExtensions.Contains(Path.GetExtension(file.FileName).ToLower()))
             {
                 ModelState.AddModelError("file", "Định dạng file không hỗ trợ");
