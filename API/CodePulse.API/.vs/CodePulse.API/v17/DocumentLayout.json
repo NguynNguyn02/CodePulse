@@ -122,9 +122,9 @@
               "Title": "AuthDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Data\\AuthDbContext.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Data\\AuthDbContext.cs",
-              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Data\\AuthDbContext.cs",
-              "RelativeToolTip": "CodePulse.API\\Data\\AuthDbContext.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAACgAAAA6AAAA",
+              "ToolTip": "C:\\Users\\Le Trung Nguyen\\Documents\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Data\\AuthDbContext.cs*",
+              "RelativeToolTip": "CodePulse.API\\Data\\AuthDbContext.cs*",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAEoAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T10:57:32.784Z",
               "EditorCaption": ""
@@ -139,8 +139,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\DTO\\BlogPostDTO\\UpdateBlogPostRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:41:56.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T13:41:56.048Z"
             },
             {
               "$type": "Document",
@@ -152,8 +151,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\Domain\\BlogImage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T06:20:44.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T06:20:44.407Z"
             },
             {
               "$type": "Document",
@@ -165,8 +163,7 @@
               "RelativeToolTip": "CodePulse.API\\Controllers\\CategoriesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T06:31:44.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T06:31:44.758Z"
             },
             {
               "$type": "Document",
@@ -178,8 +175,7 @@
               "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
               "ViewState": "AQIAAJYAAAAAAAAAAAAAwKUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T03:54:39.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T03:54:39.082Z"
             },
             {
               "$type": "Document",
@@ -191,8 +187,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\DTO\\BlogPostDTO\\BlogPostDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:42:05.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T13:42:05.633Z"
             },
             {
               "$type": "Document",
@@ -204,8 +199,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\Domain\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T15:42:34.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T15:42:34.492Z"
             },
             {
               "$type": "Document",
@@ -217,8 +211,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\DTO\\CategoryDTO\\CreateCategoryRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:41:55.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T13:41:55.065Z"
             },
             {
               "$type": "Document",
@@ -230,8 +223,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T04:11:58.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T04:11:58.059Z"
             },
             {
               "$type": "Document",
@@ -243,8 +235,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\DTO\\CategoryDTO\\CategoryDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:41:54.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T13:41:54.424Z"
             },
             {
               "$type": "Document",
@@ -256,8 +247,7 @@
               "RelativeToolTip": "CodePulse.API\\Repositories\\ImplementationReponsitory\\CategoryRepository.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAA5wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:41:46.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T13:41:46.576Z"
             },
             {
               "$type": "Document",
@@ -269,8 +259,7 @@
               "RelativeToolTip": "CodePulse.API\\Program.cs",
               "ViewState": "AQIAACMAAAAAAAAAAIBJwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T07:02:21.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T07:02:21.977Z"
             },
             {
               "$type": "Document",
@@ -282,8 +271,7 @@
               "RelativeToolTip": "CodePulse.API\\Repositories\\InterfaceRepository\\IBlogImageRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T03:32:54.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T03:32:54.07Z"
             },
             {
               "$type": "Document",
@@ -295,8 +283,7 @@
               "RelativeToolTip": "CodePulse.API\\Controllers\\ImagesController.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAAwCsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T04:53:22.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T04:53:22.709Z"
             },
             {
               "$type": "Document",
@@ -308,8 +295,7 @@
               "RelativeToolTip": "CodePulse.API\\Repositories\\ImplementationReponsitory\\BlogImageRepository.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAIBJwBcAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T03:52:01.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T03:52:01.883Z"
             },
             {
               "$type": "Document",
@@ -321,8 +307,7 @@
               "RelativeToolTip": "CodePulse.API\\Migrations\\20240720041256_Add BlogImage Domain Model.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T04:12:56.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T04:12:56.565Z"
             },
             {
               "$type": "Document",
@@ -334,8 +319,7 @@
               "RelativeToolTip": "CodePulse.API\\Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T04:11:38.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T04:11:38.161Z"
             }
           ]
         }
